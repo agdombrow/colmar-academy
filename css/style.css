@@ -1,0 +1,88 @@
+/* ================================================================== BASE == */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: ghostwhite;
+  color: darkslategrey;
+}
+
+
+
+/* ============================================================ NAVIGATION == */
+
+.header {
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  position: absolute;
+  right: 1.5rem;
+  list-style: none;
+}
+
+  .nav__item {
+    padding-left: 1rem;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+
+  /* reveal icon for mobile viewports */
+
+
+
+/* ================================================================== HERO == */
+
+.hero {
+  background-color: honeydew;
+}
+
+
+
+/* ================================================================== NEWS == */
+
+.news {
+
+}
+
+
+
+/* =============================================================== COURSES == */
+
+.courses {
+  background-color: honeydew;
+}
+
+
+
+/* ================================================================ THESIS == */
+
+.thesis {
+
+}
+
+
+
+/* ================================================================ FOOTER == */
+
+.footer {
+  background-color: honeydew;
+}
+
