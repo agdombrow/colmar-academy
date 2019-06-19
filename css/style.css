@@ -225,8 +225,54 @@ a:hover {
 /* =============================================================== COURSES == */
 
 .courses {
+  padding: 2rem 4.5rem;
   background-color: honeydew;
 }
+
+  .courses__title {
+    margin: 0 0 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .courses__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.courses-card {
+  flex: 1 0 30%;
+  width: 30%;
+  min-width: 14.1875rem;
+  margin: 0 1rem 1rem 0;
+  background-color: ghostwhite;
+}
+
+  .courses-card:nth-of-type(3),
+  .courses-card:last-of-type {
+    margin-right: 0;
+  }
+
+  .courses-card__img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .courses-card__title {
+    margin: 0 1rem .5rem;
+  }
+
+  .courses-card__tag {
+    margin: 0 1rem .5rem;
+    text-transform: uppercase;
+  }
+
+  .courses-card__desc {
+    margin: 0 1rem 1.5rem;
+  }
 
 
 
