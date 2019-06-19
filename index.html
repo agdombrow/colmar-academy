@@ -33,32 +33,41 @@
       </div>
     </section>
     <section id="news" class="news">
-      <article>
-        <h1>It doesn’t hurt to keep practicing</h1>
+      <article class="news__featured">
+        <img class="news__featured-img" src="./img/information-main.jpg" alt="Man reads a book outside">
+        <h1 class="news__featured-headline">It doesn’t hurt to keep practicing</h1>
         <p>“Curabitur vitae libero in ipsum porttitot conseuat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.”</p>
         <p>Emanuel, Sr Strategist at Hiring.com</p>
       </article>
-      <article>
-        <img src="./img/information-orientation.jpg" alt="Students wandering a brick path onto campus.">
-        <img src="./img/information-orientation-mobile.jpg" alt="Students wandering a brick path onto campus.">
-        <h1>Orientation date</h1>
-        <p>Tue 10/11 & Wed 10/12: 8am–3pm</p>
-        <a href="#orientation">Read more</a>
-      </article>
-      <article>
-        <img src="./img/information-campus.jpg" alt="Inside the classroom">
-        <img src="./img/information-campus-mobile.jpg" alt="Inside the classroom">
-        <h1>Our campus</h1>
-        <p>Find which campus is close by you</p>
-        <a href="#campus">Read more</a>
-      </article>
-      <article>
-        <img src="./img/information-guest-lecture.jpg" alt="Oliver Sack in a beret.">
-        <img src="./img/information-guest-lecture-mobile.jpg" alt="Oliver Sack in a beret.">
-        <h1>Our guest lecture</h1>
-        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-        <a href="#lecture">Read more</a>
-      </article>
+      <div class="u-vertical-flex news__cards">
+        <article class="news__card">
+          <img class="news__card-img--dtop" src="./img/information-orientation.jpg" alt="Students wandering a brick path onto campus.">
+          <div class="u-vertical-flex u-flex-center">
+            <img class="news__card-img--mobi" src="./img/information-orientation-mobile.jpg" alt="Students wandering a brick path onto campus.">
+            <h1 class="news__card-title">Orientation date</h1>
+            <p class="news__card-text">Tue 10/11 & Wed 10/12: 8am–3pm</p>
+            <a class="news__card-cta" href="#orientation">Read more</a>
+          </div>
+        </article>
+        <article class="news__card">
+          <img class="news__card-img--dtop" src="./img/information-campus.jpg" alt="Inside the classroom">
+          <div class="u-vertical-flex u-flex-center">
+            <img class="news__card-img--mobi" src="./img/information-campus-mobile.jpg" alt="Inside the classroom">
+            <h1 class="news__card-title">Our campus</h1>
+            <p class="news__card-text">Find which campus is close by you</p>
+            <a class="news__card-cta" href="#campus">Read more</a>
+          </div>
+        </article>
+        <article class="news__card">
+          <img class="news__card-img--dtop" src="./img/information-guest-lecture.jpg" alt="Oliver Sack in a beret.">
+          <div class="u-vertical-flex u-flex-center">
+            <img class="news__card-img--mobi" src="./img/information-guest-lecture-mobile.jpg" alt="Oliver Sack in a beret.">
+            <h1 class="news__card-title">Our guest lecture</h1>
+            <p class="news__card-text">Join a keynote with Oliver Sack about music in medical treatment</p>
+            <a class="news__card-cta" href="#lecture">Read more</a>
+          </div>
+        </article>
+      </div>
     </section>
     <section id="courses" class="courses">
       <h1>Start learning</h1>

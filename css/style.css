@@ -23,6 +23,11 @@ body {
 
 /* ============================================================ TYPOGRAPHY == */
 
+p {
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
 a:hover {
   /* add hover state */
 }
@@ -152,8 +157,66 @@ a:hover {
 /* ================================================================== NEWS == */
 
 .news {
-
+  display: flex;
+  padding: 2rem 1.5rem;
 }
+
+  .news__featured {
+    width: 60%;
+    margin-right: 1.5rem;
+  }
+
+    .news__featured-img {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .news__featured-headline {
+      margin: 0 0 1.5rem;
+      font-size: 2rem;
+    }
+
+  .news__cards {
+    width: 40%;
+  }
+
+  .news__card {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid lightslategrey;
+  }
+
+    .news__card:hover {
+      background: lightslategrey;
+    }
+
+    .news__card-img--mobi {
+      display: none;
+    }
+
+    .news__card-img--dtop {
+      width: 35%;
+      margin-right: 1rem;
+    }
+
+    .news__card-title {
+      margin: 0 0 .5rem;
+    }
+
+    .news__card-text {
+      margin-bottom: .5rem;
+    }
+
+    .news__card-cta {
+      color: dodgerblue;
+      text-decoration: none;
+    }
+
+      .news__card:hover .news__card-cta {
+        color: ghostwhite;
+      }
+
+/* swap dtop img for mobi in smaller viewports */
 
 
 
