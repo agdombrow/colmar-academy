@@ -109,6 +109,7 @@ a:hover {
 
 .hero {
   display: flex;
+  padding: 2rem 1.5rem;
   background-color: honeydew;
 }
 
@@ -126,7 +127,6 @@ a:hover {
 
   .hero__cta {
     display: block;
-    margin-right: 1.5rem;
     padding: .5rem;
     background: darkslategrey;
     color: ghostwhite;
@@ -142,7 +142,7 @@ a:hover {
   .hero__img {
     float: left;
     width: 60%;
-    margin: 2rem 1.5rem;
+    margin-right: 1.5rem;
   }
 
 
