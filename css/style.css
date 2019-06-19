@@ -67,7 +67,8 @@ a:hover {
 
 /* ================================================================ HEADER == */
 
-.header {
+.header,
+.footer {
   display: flex;
   height: 4rem;
 }
@@ -90,8 +91,8 @@ a:hover {
   position: absolute;
   right: 1.5rem;
   margin: 1.5rem 0;
+  padding: 0;
   list-style: none;
-  
 }
 
   .nav__item {
@@ -313,6 +314,11 @@ a:hover {
 /* ================================================================ FOOTER == */
 
 .footer {
+  /* padding: 1rem 2rem 4rem; */
   background-color: honeydew;
+  border-top: 1px solid lightslategrey;
 }
 
+.copyright {
+  margin: 1.5rem 0 4rem 2rem;
+}
