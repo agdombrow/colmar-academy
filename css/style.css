@@ -17,27 +17,50 @@ body {
   color: darkslategrey;
 }
 
+.u-bold {
+  font-weight: bold;
+}
+
+.u-thin {
+  font-weight: thin;
+}
 
 
-/* ============================================================ NAVIGATION == */
+
+
+/* ================================================================ HEADER == */
 
 .header {
   display: flex;
+  height: 4rem;
 }
 
 .logo {
   display: inline-block;
+  margin-left: 1.5rem;
+  width: 2rem;
+}
+
+.logotype {
+  margin: 1.25rem 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .nav {
   display: flex;
   position: absolute;
   right: 1.5rem;
+  margin: 1.5rem 0;
   list-style: none;
+  
 }
 
   .nav__item {
     padding-left: 1rem;
+    color: darkslategrey;
+    text-decoration: none;
   }
 
   .nav__icon {
