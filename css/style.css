@@ -17,6 +17,28 @@ body {
   color: darkslategrey;
 }
 
+
+
+
+
+/* ============================================================ TYPOGRAPHY == */
+
+a:hover {
+  /* add hover state */
+}
+
+
+
+
+
+/* =============================================================== UTILITY == */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .u-bold {
   font-weight: bold;
 }
@@ -24,6 +46,16 @@ body {
 .u-thin {
   font-weight: thin;
 }
+
+.u-vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-flex-center {
+  justify-content: center;
+}
+
 
 
 
@@ -71,11 +103,49 @@ body {
 
 
 
+
+
 /* ================================================================== HERO == */
 
 .hero {
+  display: flex;
   background-color: honeydew;
 }
+
+  .hero__title {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    line-height: 1.25;
+  }
+
+  .hero__subtitle {
+    margin: 0 0 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  .hero__cta {
+    display: block;
+    margin-right: 1.5rem;
+    padding: .5rem;
+    background: darkslategrey;
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: none;
+  }
+
+    .hero__cta:hover {
+      background: mediumturquoise;
+      color: darkslategrey;
+    }
+  
+  .hero__img {
+    float: left;
+    width: 60%;
+    margin: 2rem 1.5rem;
+  }
+
+
 
 
 
@@ -87,6 +157,8 @@ body {
 
 
 
+
+
 /* =============================================================== COURSES == */
 
 .courses {
@@ -95,11 +167,15 @@ body {
 
 
 
+
+
 /* ================================================================ THESIS == */
 
 .thesis {
 
 }
+
+
 
 
 
