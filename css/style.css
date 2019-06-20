@@ -12,9 +12,9 @@ html {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Montserrat, Verdana, sans-serif;
   background-color: ghostwhite;
-  color: darkslategrey;
+  color: #3a5e48;
 }
 
 
@@ -97,9 +97,16 @@ a:hover {
 
   .nav__item {
     padding-left: 1rem;
-    color: darkslategrey;
+    color: #3a5e48;
     text-decoration: none;
   }
+
+    .nav__item:hover,
+    .nav__item:active {
+      color: #e87f4d;
+      /* border-bottom: 1px solid #e87f4d; */
+      text-decoration: underline;
+    }
 
   .nav__icon {
     display: none;
@@ -116,7 +123,7 @@ a:hover {
 .hero {
   display: flex;
   padding: 2rem 1.5rem;
-  background-color: honeydew;
+  background-color: #a5bfc5;
 }
 
   .hero__title {
@@ -134,15 +141,18 @@ a:hover {
   .hero__cta {
     display: block;
     padding: .5rem;
-    background: darkslategrey;
+    background: #3a5e48;
     color: ghostwhite;
     text-align: center;
     text-decoration: none;
+    transition: all 200ms ease-out;
   }
 
     .hero__cta:hover {
-      background: mediumturquoise;
-      color: darkslategrey;
+      background: #e87f4d;
+      color: #3a5e48;
+      color: black;
+      font-weight: 600;
     }
   
   .hero__img {
@@ -194,12 +204,12 @@ a:hover {
   .thesis__card {
     display: flex;
     padding: 1rem;
-    border: 1px solid lightslategrey;
+    border: 1px solid #a5bfc5;
   }
 
     .news__card:hover,
     .thesis__card:hover {
-      background: lightslategrey;
+      background: #a5bfc5;
     }
 
     .news__card-img--mobi {
@@ -226,7 +236,7 @@ a:hover {
     }
 
     .news__card-cta {
-      color: dodgerblue;
+      color: #e87f4d;
       text-decoration: none;
     }
 
@@ -245,11 +255,13 @@ a:hover {
 .courses {
   padding: 2rem 4.5rem;
   background-color: honeydew;
+  background-color: #e87f4d;
 }
 
   .courses__title,
   .thesis__title {
     margin: 0 0 2rem;
+    background-color: ghostwhite;
     font-size: 2rem;
     text-align: center;
   }
@@ -272,7 +284,14 @@ a:hover {
   min-width: 14.1875rem;
   margin: 0 1rem 1rem 0;
   background-color: ghostwhite;
+  box-shadow: 0 4px 8px -4px #3a5e48;
+  transition: all 200ms ease-out;
 }
+
+  .courses-card:hover {
+    box-shadow: 0 4px 8px 0 #3a5e48;
+    transform: scale(1.1);
+  }
 
   .courses-card:nth-of-type(3),
   .courses-card:last-of-type {
@@ -314,9 +333,10 @@ a:hover {
 /* ================================================================ FOOTER == */
 
 .footer {
+  height: auto;
   /* padding: 1rem 2rem 4rem; */
-  background-color: honeydew;
-  border-top: 1px solid lightslategrey;
+  background-color: #a5bfc5;
+  border-top: 1px solid #a5bfc5;
 }
 
 .copyright {
