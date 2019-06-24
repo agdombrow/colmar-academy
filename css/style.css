@@ -161,6 +161,19 @@ a:hover {
     margin-right: 1.5rem;
   }
 
+  @media screen and (max-width: 55.5rem) {
+    .hero {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .hero__img {
+      float: none;
+      width: calc(100% + 4rem);
+      margin: -2rem 0 2rem;
+    }
+  }
+
 
 
 
