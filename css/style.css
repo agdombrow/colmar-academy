@@ -112,8 +112,30 @@ a:hover {
     display: none;
   }
 
-  /* reveal icon for mobile viewports */
+  @media screen and (max-width: 43rem) {
+    .nav {
+      justify-content: space-between;
+      align-content: flex-end;
+      width: 60%;
+    }
 
+      .nav li {        
+        width: 1.6875rem;
+      }
+
+      .nav li:nth-child(3) {
+        display: none;
+      }
+
+    .nav__icon {
+      display: block;
+    }
+
+    .nav__item,
+    .logotype {
+      display: none;
+    }
+  }
 
 
 
@@ -170,7 +192,7 @@ a:hover {
     .hero__img {
       float: none;
       width: calc(100% + 4rem);
-      margin: -2rem 0 2rem;
+      margin: -2rem -2rem 2rem;
     }
   }
 
