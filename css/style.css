@@ -279,7 +279,6 @@ a:hover {
         color: ghostwhite;
       }
 
-/* swap dtop img for mobi in smaller viewports */
 @media screen and (max-width: 55.5rem) {
   .news__featured {
     display: none;
@@ -374,6 +373,24 @@ a:hover {
   .courses-card__desc {
     margin: 0 1rem 1.5rem;
   }
+
+@media screen and (max-width: 57.8125rem) {
+  .courses-card:nth-of-type(3) {
+    margin-right: 1rem;
+  }
+  
+  .courses-card:nth-of-type(even) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 40.625rem) {
+  .courses-card,
+  .courses-card:nth-of-type(3) {
+    margin-right: 0;
+  }
+}
+
 
 
 
