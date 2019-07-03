@@ -388,7 +388,14 @@ a:hover {
   .courses-card,
   .courses-card:nth-of-type(3) {
     margin-right: 0;
+    padding-top: .5rem;
   }
+
+    .courses-card__img,
+    .courses-card__tag,
+    .courses-card__desc {
+      display: none;
+    }
 }
 
 
