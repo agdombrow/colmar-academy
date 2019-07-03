@@ -280,12 +280,24 @@ a:hover {
       }
 
 @media screen and (max-width: 55.5rem) {
-  .news__featured {
+  .news__featured,
+  .thesis__featured-title,
+  .thesis__featured-text,
+  .thesis__card {
     display: none;
   }
 
-  .news__cards {
+  .thesis {
+    display: block;
+  }
+
+  .news__cards,
+  .thesis__featured {
     width: 100%;
+  }
+
+  .thesis__featured {
+    margin: 0 auto;
   }
 
   .news__card {
@@ -303,6 +315,13 @@ a:hover {
       width: 100%;
       margin-bottom: 1rem;
     }
+}
+
+@media screen and (max-width: 37.5rem) {
+  .thesis {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 
