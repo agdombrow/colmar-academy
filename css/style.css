@@ -280,7 +280,31 @@ a:hover {
       }
 
 /* swap dtop img for mobi in smaller viewports */
+@media screen and (max-width: 55.5rem) {
+  .news__featured {
+    display: none;
+  }
 
+  .news__cards {
+    width: 100%;
+  }
+
+  .news__card {
+    justify-content: center;
+    padding-bottom: 2rem;
+    border: 0;
+  }
+
+    .news__card-img--dtop {
+      display: none;
+    }
+
+    .news__card-img--mobi {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+}
 
 
 
